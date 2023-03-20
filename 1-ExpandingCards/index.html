@@ -2,23 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
     <title>Expanding Cards</title>
   </head>
-  <body>
-      
-    <!-- Container -->
-    <div class="container">
-        
-      <!-- Div with section and active -->
-      <div class="section one active"></div>
-        
-      <!-- All another div with section -->
-      <div class="section two"></div>
-      <div class="section three"></div>
-      <div class="section four"></div>
-    </div>
   
+  <body>
+    <div class="container">
+      <div class="panel active" style="background-image: url('img/waterfall.jpg')">
+        <h3>Explore The World</h3>
+      </div>
+      <div class="panel" style="background-image: url('img/flowerforest.jpg')">
+        <h3>Wild Flowers</h3>
+      </div>
+      <div class="panel" style="background-image: url('img/rocky.avif')">
+        <h3>Rocky Mountain</h3>
+      </div>
+      <div class="panel" style="background-image: url('img/beach.avif')">
+        <h3>Beach Cove</h3>
+      </div>
+      <div class="panel" style="background-image: url('img/forest.avif')">
+        <h3>Forest Trail</h3>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
   </body>
 </html>
