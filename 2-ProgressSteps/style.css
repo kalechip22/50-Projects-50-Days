@@ -53,6 +53,20 @@ to specify content inserted before element
   position: absolute;
   top: 50%;
   left: 0;
+  /* Vertically centers element and moves it up by 50% of own height */
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.progress {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* Vertically centers element and moves it up by 50% of own height */
   transform: translateY(-50%);
   height: 4px;
   width: 0%;
