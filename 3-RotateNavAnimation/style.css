@@ -42,7 +42,7 @@ body {
 }
 
 .circle {
-  background-color: #ff7979;
+  background-color: #aaf0d1;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -51,9 +51,11 @@ body {
 }
 
 .container.show-nav .circle {
+  /* Rotates by 70 degrees */
   transform: rotate(-70deg);
 }
 
+/* Makes sure buttons don't move */
 .circle button {
   cursor: pointer;
   position: absolute;
@@ -127,7 +129,7 @@ nav a{
 }
 
 nav a:hover {
-  color: #FF7979;
+  color: #aaf0d1;
   font-weight: bold;
 }
 
