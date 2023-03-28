@@ -37,6 +37,7 @@ body {
 
 .circle-container {
   position: fixed;
+  /* Position circle so that only a quarter of it shows */
   top: -100px;
   left: -100px;
 }
@@ -87,6 +88,7 @@ body {
   transition-delay: 0.3s;
 }
 
+/* Sets z-index to 100 so that is shows up */
 nav {
   position: fixed;
   bottom: 40px;
@@ -107,6 +109,7 @@ nav ul li {
   transition: transform 0.4s ease-in;
 }
 
+/* Stacks the menu items diagonally */
 nav ul li i {
   font-size: 20px;
   margin-right: 10px;
